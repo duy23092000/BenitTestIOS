@@ -72,7 +72,7 @@ struct SignUpView: View {
                     .background(Color("EFF0EF"))
                     .cornerRadius(61)
                     
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {}, label: {
                         Text("Sign Up")
                             .font(.headline)
                             .frame(width: 120)
@@ -84,7 +84,7 @@ struct SignUpView: View {
                     .padding()
                     
                     Text("Or sign up with social platform")
-                        .font(Font.custom("Roboto-Thin", size: 20))
+                        .font(Font.custom("Roboto-Thin", size: 15))
                         .padding(.top, 5)
                         .opacity(0.5)
                     
@@ -182,7 +182,7 @@ struct SignInView: View {
                     .padding()
                     
                     Text("Or sign up with social platform")
-                        .font(Font.custom("Roboto-Thin", size: 20))
+                        .font(Font.custom("Roboto-Thin", size: 15))
                         .padding(.top, 5)
                         .opacity(0.5)
                     
