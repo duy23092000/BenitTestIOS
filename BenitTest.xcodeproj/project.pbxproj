@@ -13,7 +13,7 @@
 		1826145E25FFA3D900320687 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1826145D25FFA3D900320687 /* Preview Assets.xcassets */; };
 		1826146925FFA3D900320687 /* BenitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826146825FFA3D900320687 /* BenitTestTests.swift */; };
 		1826147425FFA3DA00320687 /* BenitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826147325FFA3DA00320687 /* BenitTestUITests.swift */; };
-		1826148525FFA7DF00320687 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826148425FFA7DE00320687 /* SignUpView.swift */; };
+		187593FF26009AF10007C470 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187593FE26009AF10007C470 /* AuthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		1826146F25FFA3DA00320687 /* BenitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1826147325FFA3DA00320687 /* BenitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenitTestUITests.swift; sourceTree = "<group>"; };
 		1826147525FFA3DA00320687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1826148425FFA7DE00320687 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		187593FE26009AF10007C470 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,10 @@
 			children = (
 				1826145625FFA3D800320687 /* BenitTestApp.swift */,
 				1826145825FFA3D800320687 /* ContentView.swift */,
-				1826148425FFA7DE00320687 /* SignUpView.swift */,
 				1826145A25FFA3D900320687 /* Assets.xcassets */,
 				1826145F25FFA3D900320687 /* Info.plist */,
 				1826145C25FFA3D900320687 /* Preview Content */,
+				187593FE26009AF10007C470 /* AuthView.swift */,
 			);
 			path = BenitTest;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1826145925FFA3D800320687 /* ContentView.swift in Sources */,
-				1826148525FFA7DF00320687 /* SignUpView.swift in Sources */,
+				187593FF26009AF10007C470 /* AuthView.swift in Sources */,
 				1826145725FFA3D800320687 /* BenitTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
