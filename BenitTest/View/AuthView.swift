@@ -222,7 +222,6 @@ struct AuthView: View {
         NavigationView {
             SignUpView()
         }
-//        SignUpView()
     }
 }
 
