@@ -16,11 +16,11 @@ struct GetStartedView: View {
             if (isActive) {
                 AuthView()
                     .transition(.move(edge: .top))
-                    .animation(.linear(duration: 1.5))
+                    .animation(.linear(duration: 1.0))
             } else if (isSignUp) {
                 SignInView()
-                    .transition(.move(edge: .top))
-                    .animation(.linear(duration: 1.5))
+                    .transition(.move(edge: .bottom))
+                    .animation(.linear(duration: 1.0))
             } else {
                 VStack(alignment: .center) {
                     Image("getstartednen")
@@ -61,9 +61,7 @@ struct GetStartedView: View {
                             .background(Color("FF854F"))
                             .cornerRadius(61)
                     })
-//                    Text("I already have an account")
-//                        .font(.title3)
-//                        .foregroundColor(Color("FF854F"))
+                    
                     Button(action: {
                             withAnimation{
                                 self.isSignUp.toggle()}}, label: {
@@ -71,7 +69,6 @@ struct GetStartedView: View {
                             .font(.title3)
                             .foregroundColor(Color("FF854F"))
                     })
-                    
                 }
                 .padding(.horizontal, 26.0)
                 .offset(y: -180)

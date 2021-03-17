@@ -15,7 +15,7 @@ struct LandingView: View {
             if (self.isActive) {
                 GetStartedView()
                     .transition(.move(edge: .trailing))
-                    .animation(.linear(duration: 1.5))
+                    .animation(.linear(duration: 1.0))
             } else {
                 ZStack {
                     Image("nenlanding")
